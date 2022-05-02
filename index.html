@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Bolberry</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/aos.min.css"/>
+
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+</head>
+
+<div class="cursor">
+    <div class="cursor__ball cursor__ball--big ">
+        <svg height="30" width="30">
+            <g>
+                <path d="M15,1c7.72,0,14,6.28,14,14s-6.28,14-14,14S1,22.72,1,15S7.28,1,15,1 M15,0C6.72,0,0,6.72,0,15s6.72,15,15,15
+		s15-6.72,15-15S23.28,0,15,0L15,0z"/>
+            </g>
+        </svg>
+    </div>
+
+    <div class="cursor__ball cursor__ball--small">
+        <svg height="10" width="10">
+            <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+        </svg>
+    </div>
+</div>
+<body>
+<div class="container-inner">
+    <div class="container---inner">
+        <header class="header">
+            <div class="header_image_wrapper">
+                <img class="header__logo" src="images/logo-test.png" alt="">
+            </div>
+
+            <nav class="nav">
+                <div id="burger" class="burger" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="invis"></div>
+                    <div class="bar3"></div>
+                </div>
+                <ul id="navList" class="nav__list">
+                    <li class="nav__list-item" data-aos="fade-down" data-aos-delay="50">
+                        <a id="nav_1" class="nav__list-item--link hoverable" data="#about-us">About us</a></li>
+                    <li class="nav__list-item" data-aos="fade-down" data-aos-delay="100">
+                        <a id="nav_2" class="nav__list-item--link hoverable" data="#product">Products</a>
+                    </li>
+                    <li class="nav__list-item" data-aos="fade-down" data-aos-delay="150">
+                        <a id="nav_3" class="nav__list-item--link hoverable" data="#season">Seasonality</a>
+                    </li>
+                    <li class="nav__list-item" data-aos="fade-down" data-aos-delay="200">
+                        <a id="nav_4" class="nav__list-item--link hoverable" data="#footer">Contacts</a>
+                    </li>
+                </ul>
+
+                <div class="language">
+                    <label class="language-label" for="ua">
+                        <input type="button" id="ua" class="language-UA hoverable" value="UA">
+                    </label>
+                    <p class="slash">/</p>
+                    <label for="eng"><input type="button" id="eng" class="language-ENG hoverable" value="ENG"></label>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class="hero">
+        <h2 class="main__title" data-aos="fade-right" data-aos-delay="50">
+            <span class="title-fresh">FRESH</span>
+            <span class="title_umpersand">&</span>
+            <span class="title-healthy">HEALTHY</span>
+        </h2>
+
+        <div class="berries_top_wrapper magnetick">
+
+            <div class="berries_top_berry_1">
+                <img class="absolute_image_fitter" src="images/berries/small_berry_1.png">
+            </div>
+
+            <div class="berries_top_berry_2">
+                <img class="absolute_image_fitter" src="images/berries/small_berry_2.png">
+            </div>
+
+            <div class="berries_top_berry_3">
+                <img class="absolute_image_fitter" src="images/berries/small_berry_2.png">
+            </div>
+
+            <div class="berries_top_berry_4">
+                <img class="absolute_image_fitter" src="images/berries/small_berry_1.png">
+            </div>
+
+            <div class="berries_top_berry_5">
+                <img class="absolute_image_fitter" src="images/berries/small_berry_2.png">
+            </div>
+
+            <div class="berries_top_berry_6">
+                <img class="absolute_image_fitter" src="images/berries/big_berries.png">
+            </div>
+
+            <div class="berries_top_water_splash">
+                <img class="absolute_image_fitter" src="images/water/water_splash_big-3.png">
+            </div>
+        </div>
+    </div>
+    <main class="main">
+
+        <section id="about-us" class="about-us">
+            <div class="about-us__box">
+                <div class="about-us__video">
+                    <img class="about-us__video-image" src="images/live_photos/video_photo.png">
+                </div>
+                <div class="about-us__text-container " data-aos="fade-right" data-aos-delay="50">
+                    <h3 class="about-us__title title">
+                        About us
+                    </h3>
+                    <p class="about-us__text text">
+                        Our farm was created in 2020, in the Kharkiv region, the village of Boliboki. This is where the
+                        name comes from - Bolberry. We grow blueberries in a picturesque, ecologically clean place, far
+                        from the city, on a plantation with an area of 15 hectares. In the future, we plan to increase
+                        the berry planting area.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="useful-properties">
+            <div class="useful-properties__container">
+                <div class="useful-properties__content">
+                    <div class="properties__content-container" data-aos="fade-right" data-aos-delay="50">
+                        <h3 class="useful-properties__content--title title">
+                            Useful properties of blueberries
+                        </h3>
+                        <p class="useful-properties__text text">
+                            Blueberries are very tasty. Blueberries are a storehouse of vitamins. Strengthens the walls
+                            of blood vessels, improves appetite. The berry lowers blood sugar, helps with heart disease,
+                            etc.
+                            Blueberries are most often used fresh. But many varieties perfectly tolerate transportation
+                            and long-term storage (up to two weeks in the refrigerator) without losing their taste.
+                        </p>
+                    </div>
+                    <div id="magnetic_1" class="berries_top_berry_8">
+                        <img class="absolute_image_fitter" src="images/berries/small_berry_2.png">
+                    </div>
+
+                    <div id="magnetic_2" class="berries_top_berry_9">
+                        <img class="absolute_image_fitter" src="images/berries/small_berry_1.png">
+                    </div>
+
+                    <div id="magnetic_3" class="berries_top_berry_10">
+                        <img class="absolute_image_fitter" src="images/berries/small_berry_2.png">
+                    </div>
+
+                    <div id="magnetic_4" class="water_splash_bottom">
+                        <img src="images/water/water_splash_bottom.png" class="absolute_image_fitter-waterSplash">
+                    </div>
+                </div>
+                <div class="useful-properties__block">
+                    <ul class="useful-properties__list">
+                        <li class="useful-properties__list-item" data-aos="fade-up" data-aos-delay="250">
+                            <img src="images/cards/card_1.png" alt="" class="useful-properties__item-img">
+                            <p class="useful-properties__item-text" id="card_1_text">Perfect taste</p>
+                        </li>
+                        <li class="useful-properties__list-item" data-aos="fade-up" data-aos-delay="300">
+                            <img src="images/cards/card_2.png" alt="" class="useful-properties__item-img">
+                            <p class="useful-properties__item-text" id="card_2_text">Harvest with love</p>
+                        </li>
+                        <li class="useful-properties__list-item" data-aos="fade-up" data-aos-delay="350">
+                            <img src="images/cards/card_3.png" alt="" class="useful-properties__item-img">
+                            <p class="useful-properties__item-text" id="card_3_text">Organic</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="product" class="quality-product">
+            <div class="quality-product__container">
+                <div class="quality-product__item">
+                    <div class="quality-product__item-img--container">
+                        <img src="images/live_photos/production_photo_1.png" alt="" class="quality-product__item-img">
+                        <div class="production_image_wrapper_2">
+                            <img class="absolute_image_fitter" src="images/live_photos/production_photo_2.png">
+                        </div>
+                    </div>
+
+                    <div class="quality-product__item-content1" data-aos="fade-right" data-aos-delay="150">
+                        <h4 class="quality-product__item-content--title title production_title">
+                            Production
+                        </h4>
+                        <p class="quality-product__item-content--text text production_text">
+                            We studied the issue of proper field preparation for a long time, visited industrial
+                            plantations in Europe, talked with a large number of specialists.
+                        </p>
+                    </div>
+                </div>
+                <div class="quality-product__item product__item-second">
+
+                    <div class="quality-product__item-content" data-aos="fade-right" data-aos-delay="150">
+                        <h4 class="quality-product__item-content--title title">
+                            Quality
+                        </h4>
+                        <p class="quality-product__item-content--text text">
+                            The taste of our berries is crafted by Nature itself; we just follow up and implement
+                            up-to-date technologies to deliver them fresh, ripe and sweet. We care about the environment
+                            and food safety. Therefore, we grow our blueberries in accordance with the Global GAP
+                            standard, annually updating our certification.
+                        </p>
+                    </div>
+                    <div id="magnetic_5" class="quality_berry">
+                        <img class="absolute_image_fitter" src="images/berries/small_berry_1.png">
+                    </div>
+
+                    <div id="magnetic_6" class="quality_water_splash">
+                        <img class="absolute_image_fitter" src="images/water/water_splash_quality.png">
+                    </div>
+                    <div class="quality-product__item-img-container">
+                        <img src="images/live_photos/quality_photo.png" alt="" class="quality-product__item-img--quality">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="season" class="graphic__wrapper">
+            <p class="graphic__wrapper_title">The ripening period of berries:</p>
+            <div class="graphic_wrapper_img--container" data-aos="fade-up" data-aos-delay="150">
+                <img class="graphic_wrapper_img" src="images/graphics/graphic_eng.svg">
+            </div>
+            <div class="berries-sorts__container">
+                <ul class="berries-sort__list">
+                    <li class="berries-sort__list-item" data-aos="fade-right" data-aos-delay="100">
+                        <h4 class="berries-sort__list-item--title Duke"> Duke</h4>
+                        <p class="berries-sort__list-item--text text textDuke">Early (mid-June-early July), large,
+                            tart-sweet fruits with a sour aftertaste. </p>
+                    </li>
+                    <li class="berries-sort__list-item" data-aos="fade-right" data-aos-delay="150">
+                        <h4 class="berries-sort__list-item--title Sierra">Sierra</h4>
+                        <p class="berries-sort__list-item--text text textSierra">Medium early variety (end of July),
+                            berries are large, fragrant, juicy, sweet taste.. </p>
+                    </li>
+                    <li class="berries-sort__list-item" data-aos="fade-right" data-aos-delay="200">
+                        <h4 class="berries-sort__list-item--title Bluegold">Bluegold</h4>
+                        <p class="berries-sort__list-item--text text textBluegold">Medium early variety. The berries
+                            reach ripeness in the second decade of July, almost simultaneously, the berry is sweet and
+                            sour.</p>
+                    </li>
+                    <li class="berries-sort__list-item" data-aos="fade-right" data-aos-delay="250">
+                        <h4 class="berries-sort__list-item--title Bluecrop">Bluecrop</h4>
+                        <p class="berries-sort__list-item--text text textBluecrop">Medium variety (late July-August),
+                            the berries are very tasty, both raw and processed </p>
+                    </li>
+                    <li class="berries-sort__list-item" data-aos="fade-right" data-aos-delay="300">
+                        <h4 class="berries-sort__list-item--title Chandler">Chandler</h4>
+                        <p class="berries-sort__list-item--text text textChandler">Fruiting from August to September.
+                            The berry is very large, with a pleasant dessert taste.</p>
+                    </li>
+                    <li class="berries-sort__list-item" data-aos="fade-right" data-aos-delay="350">
+                        <h4 class="berries-sort__list-item--title Elliot">Elliot</h4>
+                        <p class="berries-sort__list-item--text text textElliot">Late variety, ripens from early
+                            September and bears fruit until mid-October. The fruits are of medium size, juicy, firm
+                            pulp, sweet taste.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <footer id="footer" class="footer">
+            <div class="footer__content">
+               <div class="frame">
+                <iframe class="frame-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10225.88866012427!2d36.0644351212704!3d50.15230552212957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127ba41286110fb%3A0x64e1f3c66c15b194!2z0JHQvtC70LjQsdC-0LrQuCwg0KXQsNGA0YzQutC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjIzMDM!5e0!3m2!1sru!2sua!4v1645195805466!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>        
+                    <div class="contacts">
+               <h2 class="main__title-footer"><span class="title-location">Location</span>
+                <span class="footer-umpersand">&</span> <span class="title-contacts">contacts</span>
+            </h2>
+                    <p class="contacts__address contacts-text">Sample. Adres 111</p>
+                    <p class="contacts__mail contacts-text">sample@gmail.com</p>
+                    <p class="contacts__phone contacts-text">+111-111-111-11</p>
+                </div>      
+            <img src="images/wawe-bottom.png" class="wawe-bottom">
+            </div>
+            <div class="footer__down">
+                <div class="footer__down-container">
+                    <a href="https://nkavd.com/" target="blank" class="nav__list-item--link footer__down-copyright hoverable ">© 2022 Розробка та підтримка сайту - NKAVD</a>
+                    <div class="header_image_wrapper">
+                    <img class="footer__logo" src="images/logo-test.png" alt="">
+                </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+</div>
+<script type="text/javascript" src="js/lib/jquery-3.5.1.min.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        once: true,
+        duration: 600
+    });
+    $(window).on('load', function () {
+        AOS.refresh();
+    });
+</script>
+
+<script type="text/javascript" src="js/cursor.js"></script>
+<script type="text/javascript" src="js/lib/TweenMax.min.js"></script>
+
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/translator.js"></script>
+
+</body>
+</html>
+
